@@ -1,0 +1,24 @@
+reset;
+model myModel.mod;
+data data.dat;
+option solver cplex;
+solve;
+
+display x;
+
+printf "Fonction objectif (ONTIME) : %f\n", ONTIME;
+printf "Ordonnancement :\n";
+for {j in S} {
+    printf "Tache %d est %s à jour \n", j, if x[j] == 1 then "" else "NOT";
+}
+for {j in S} {
+	printf "tache %d :", j;
+ 	if x[j] == 0 then {
+ 		printf "devrait être executée à ";
+ 		display p[j]+sum{i in {1..j}} p[i] * x[i];
+ 	}else{
+ 		printf "est executée à ";	
+ 		display sum{i in {1..j}} p[i] * x[i];
+ 	}
+}
+display d;

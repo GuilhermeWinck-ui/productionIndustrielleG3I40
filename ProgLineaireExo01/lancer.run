@@ -1,0 +1,8 @@
+reset;
+model myModel.mod;
+data data.dat;
+option solver cplex;
+solve;
+
+display x;
+display profit_total;

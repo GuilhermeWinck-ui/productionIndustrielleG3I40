@@ -1,0 +1,18 @@
+reset;
+model myModel.mod;
+data data.dat;
+option solver cbc;
+solve;
+
+display x;
+
+printf "Fonction objectif (load) : %f\n", LOAD;
+printf "Ordonnancement :\n";
+for {i in tasks} {
+    for {j in slots : x[i, j] = 1} {
+    	printf "Tache %d dans la position : ", i;
+        printf "%d ", j;
+        printf "\n";
+    }
+}
+printf "\n";

@@ -1,0 +1,24 @@
+reset;
+model myModel.mod;
+data data.dat;
+option solver cplex;
+solve;
+
+display x;
+
+printf "Ordonnancement :\n";
+for {m in machines} {
+	for {j in tasks} {
+	    for {i in slots : x[j, i, m] = 1} {
+	    	printf "Tache %d dans la position : ", j;
+	        printf "%d ", i;
+	        printf "de la machine %d", m;
+	       	printf "\n";
+	    }
+	}
+}
+
+for {m in machines} {
+	display sum{j in tasks, i in slots} ( p[j] / v[m] ) * x[j, i, m];
+}
+

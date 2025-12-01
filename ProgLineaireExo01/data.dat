@@ -1,0 +1,29 @@
+# les valeurs 
+param profit := 
+1 22
+2 20;
+param utilisation :=
+1 1 1
+1 2 1
+2 1 2
+2 2 2
+3 1 0
+3 2 1;
+param dispo := 
+1 6000
+2 6000
+3 2500;
+/*
+param profit := 
+1 22
+2 21;
+param utilisation : 1 2 :=
+1  1  1
+2  1  2
+3  2  1;
+param dispo := 
+1 20
+2 10
+3 10;
+*/
+

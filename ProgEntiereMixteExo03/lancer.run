@@ -1,0 +1,29 @@
+reset;
+model myModel.mod;
+data data.dat;
+option solver cplex;
+solve;
+
+display x;
+display t;
+
+printf "Fonction objectif (TARDINESS) : %f\n", TARDINESS;
+printf "Ordonnancement :\n";
+for {i in S} {
+    printf "Tache %d dans la position : ", i;
+    for {j in S : x[i, j] = 1} {
+        printf "%d ", j;
+    }
+    printf "\n";
+}
+
+for {k in S} {
+	printf "completitude pour la position %d", k;
+	display sum{i in S} p[i] * sum{u in {1..k}} x[i,u];
+}
+
+for {k in S} {
+	printf "lateness pour la position %d", k;
+	display sum{i in S} p[i] * sum{u in {1..k}} x[i,u] - sum{i in S} d[i] * x[i,k];
+}
+

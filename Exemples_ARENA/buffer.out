@@ -1,0 +1,58 @@
+SIMAN Run Controller.
+
+3.5 Heures>
+                                      ARENA Simulation Results
+                                    guilherme - License: STUDENT
+
+                                  Résumé pour la réplication 1 sur 1
+
+Projet: Unnamed Project                                             Date d'éxécution du Run :10/16/2024
+Analyse: Rockwell Automation                                         Date de révision du moodèle:10/16/2024
+
+Fin de la réplication au temps      : 3.5 Heures 
+Base Time Units (unité de base pour le temps): Heures
+
+                                           TALLY VARIABLES
+
+Identifiant                                  Moyenne   Médian  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+order.VATime                                .00000     (Insuf)    .00000     .00000         21    
+order.NVATime                               .00000     (Insuf)    .00000     .00000         21    
+order.WaitTime                              .00000     (Insuf)    .00000     .00000         21    
+order.TranTime                              .00000     (Insuf)    .00000     .00000         21    
+order.OtherTime                             .00000     (Insuf)    .00000     .00000         21    
+order.TotalTime                             .00000     (Insuf)    .00000     .00000         21    
+produit.VATime                              .00000     (Insuf)    .00000     .00000         21    
+produit.NVATime                             .00000     (Insuf)    .00000     .00000         21    
+produit.WaitTime                            .87302     (Insuf)    .16667     1.6666         21    
+produit.TranTime                            .00000     (Insuf)    .00000     .00000         21    
+produit.OtherTime                           .00000     (Insuf)    .00000     .00000         21    
+produit.TotalTime                           .87302     (Insuf)    .16667     1.6666         21    
+Stock_Produit.Queue1.WaitingTime            .87302     (Insuf)    .16667     1.6666         21    
+Stock_Produit.Queue2.WaitingTime            .00000     (Insuf)    .00000     .00000         21    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifiant                                  Moyenne   Médian  Minimum    Maximum  Valeur finale
+___________________________________________________________________________________________________
+
+order.WIP                                   .00000     (Insuf)    .00000     2.0000     1.0000    
+produit.WIP                                 5.7142     (Insuf)    .00000     10.000     4.0000    
+Stock_Produit.Queue1.NumberInQueue          5.7142     (Insuf)    .00000     10.000     4.0000    
+Stock_Produit.Queue2.NumberInQueue          .00000     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+order.NumberIn                              37.000    
+order.NumberOut                             36.000    
+produit.NumberIn                            25.000    
+produit.NumberOut                           21.000    
+System.NumberOut                            42.000    
+
+
+Simulation run time: 0.82 minutes.
+Simulation run complete.

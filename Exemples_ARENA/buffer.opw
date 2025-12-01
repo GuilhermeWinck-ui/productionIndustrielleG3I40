@@ -1,0 +1,11 @@
+[RESOURCES]
+[VARIABLES]
+Commande.NumberOut
+Decide 1.NumberOut False
+Dispose 2.NumberOut
+Min_val
+initial_value.NumberOut
+Separate 1.NumberOut Orig
+Dispose 1.NumberOut
+Separate 1.NumberOut Dup
+Decide 1.NumberOut True

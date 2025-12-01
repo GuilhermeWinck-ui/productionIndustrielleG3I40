@@ -1,0 +1,17 @@
+[RESOURCES]
+prix
+[VARIABLES]
+Process.WaitTime
+Input.NumberOut
+NotUsed.NumberOut
+Dispose.NumberOut
+Fournisseur.NumberOut
+Process.WaitCost
+Separate.NumberOut Orig
+Process.NumberOut
+Batch.NumberOut
+Process.VATime
+Decide.NumberOut False
+Decide.NumberOut True
+Process.NumberIn
+Process.VACost

@@ -1,0 +1,250 @@
+
+                                      ARENA Simulation Results
+                                    guilherme - License: STUDENT
+
+                                  Résumé pour la réplication 1 sur 2
+
+Projet: Unnamed Project                                             Date d'éxécution du Run :10/16/2024
+Analyse: Rockwell Automation                                         Date de révision du moodèle:10/16/2024
+
+Fin de la réplication au temps      : 24.0 Heures 
+Base Time Units (unité de base pour le temps): Heures
+
+                                           TALLY VARIABLES
+
+Identifiant                                  Moyenne   Médian  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Process.TotalTimePerEntity                  1.0227     (Insuf)    .67088     1.4636         23    
+Process.WaitCostPerEntity                   .00000     (Insuf)    .00000     .00000         23    
+Process.VATimePerEntity                     1.0227     (Insuf)    .67088     1.4636         23    
+Process.VACostPerEntity                     160.22     (Insuf)    156.70     164.63         23    
+Process.TotalCostPerEntity                  160.22     (Insuf)    156.70     164.63         23    
+Process.WaitTimePerEntity                   .00000     (Insuf)    .00000     .00000         23    
+Products.VATime                             .16566     .03061     .00000     1.4636        710    
+Products.NVATime                            .00000     .00000     .00000     .00000        710    
+Products.WaitTime                           .37324     .07903     .00000     2.5000        710    
+Products.TranTime                           .00000     .00000     .00000     .00000        710    
+Products.OtherTime                          .00000     .00000     .00000     .00000        710    
+Products.TotalTime                          .53890     .10474     .00000     3.9636        710    
+Products.VACost                             5.1904     .83297     .00000     32.927        710    
+Products.NVACost                            .00000     .00000     .00000     .00000        710    
+Products.WaitCost                           .74648     .15806     .00000     5.0000        710    
+Products.TranCost                           .00000     .00000     .00000     .00000        710    
+Products.OtherCost                          .00000     .00000     .00000     .00000        710    
+Products.TotalCost                          5.9369     .97069     .00000     37.927        710    
+demande.VATime                              .00000     (Insuf)    .00000     .00000         25    
+demande.NVATime                             .00000     (Insuf)    .00000     .00000         25    
+demande.WaitTime                            .00000     (Insuf)    .00000     .00000         25    
+demande.TranTime                            .00000     (Insuf)    .00000     .00000         25    
+demande.OtherTime                           .00000     (Insuf)    .00000     .00000         25    
+demande.TotalTime                           .00000     (Insuf)    .00000     .00000         25    
+demande.VACost                              .00000     (Insuf)    .00000     .00000         25    
+demande.NVACost                             .00000     (Insuf)    .00000     .00000         25    
+demande.WaitCost                            .00000     (Insuf)    .00000     .00000         25    
+demande.TranCost                            .00000     (Insuf)    .00000     .00000         25    
+demande.OtherCost                           .00000     (Insuf)    .00000     .00000         25    
+demande.TotalCost                           .00000     (Insuf)    .00000     .00000         25    
+Process.Queue.WaitingTime                   .00000     (Insuf)    .00000     .00000         25    
+Process.Queue.WaitingCost                   .00000     (Insuf)    .00000     .00000         25    
+Batch.Queue.WaitingTime                     .00000     (Insuf)    .00000     .00000        140    
+Batch.Queue.WaitingCost                     .00000     (Insuf)    .00000     .00000        140    
+Match.Queue1.WaitingTime                    2.3200     (Insuf)    .00000     2.5000         25    
+Match.Queue1.WaitingCost                    23.200     (Insuf)    .00000     25.000         25    
+Match.Queue2.WaitingTime                    .00000     (Insuf)    .00000     .00000         25    
+Match.Queue2.WaitingCost                    .00000     (Insuf)    .00000     .00000         25    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifiant                                  Moyenne   Médian  Minimum    Maximum  Valeur finale
+___________________________________________________________________________________________________
+
+Products.WIP                                21.130     (Insuf)    .00000     40.000     30.000    
+demande.WIP                                 .00000     (Insuf)    .00000     1.0000     .00000    
+prix.NumberBusy                             1.0218     (Insuf)    .00000     2.0000     2.0000    
+Process.Queue.NumberInQueue                 .00000     (Insuf)    .00000     .00000     .00000    
+Batch.Queue.NumberInQueue                   .00000     (Insuf)    .00000     5.0000     .00000    
+Match.Queue1.NumberInQueue                  2.5000     (Insuf)    .00000     3.0000     3.0000    
+Match.Queue2.NumberInQueue                  .00000     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Process Accum Wait Time                     .00000    
+Process Accum Wait Cost                     .00000    
+Process Total Accum Time                    23.523    
+Process Number Out                          23.000    
+Process Accum VA Time                       23.523    
+Process Total Accum Cost                    3685.2    
+Process Number In                           25.000    
+Process Accum VA Cost                       3685.2    
+Products.NumberIn                           763.00    
+Products.NumberOut                          733.00    
+demande.NumberIn                            25.000    
+demande.NumberOut                           25.000    
+prix.NumberSeized                           25.000    
+prix.BusyCost                               .00000    
+prix.UsageCost                              3750.0    
+All Entities.VACost                         3985.2    
+All Entities.NVACost                        .00000    
+All Entities.WaitCost                       580.00    
+All Entities.TranCost                       .00000    
+All Entities.OtherCost                      .00000    
+All Entities.TotalCost                      4565.2    
+All Resources.BusyCost                      .00000    
+All Resources.IdleCost                      .00000    
+All Resources.UsageCost                     3750.0    
+All Resources.TotalCost                     3750.0    
+System.TotalCost                            4565.2    
+System.NumberOut                            735.00    
+
+Beginning replication 2 of 2
+
+                                      ARENA Simulation Results
+                                    guilherme - License: STUDENT
+
+                                  Résumé pour la réplication 2 sur 2
+
+Projet: Unnamed Project                                             Date d'éxécution du Run :10/16/2024
+Analyse: Rockwell Automation                                         Date de révision du moodèle:10/16/2024
+
+Fin de la réplication au temps      : 24.0 Heures 
+Base Time Units (unité de base pour le temps): Heures
+
+                                           TALLY VARIABLES
+
+Identifiant                                  Moyenne   Médian  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Process.TotalTimePerEntity                  1.0203     (Insuf)    .62677     1.3718         23    
+Process.WaitCostPerEntity                   .00000     (Insuf)    .00000     .00000         23    
+Process.VATimePerEntity                     1.0203     (Insuf)    .62677     1.3718         23    
+Process.VACostPerEntity                     160.20     (Insuf)    156.26     163.71         23    
+Process.TotalCostPerEntity                  160.20     (Insuf)    156.26     163.71         23    
+Process.WaitTimePerEntity                   .00000     (Insuf)    .00000     .00000         23    
+Products.VATime                             .16526     .02661     .00000     1.3718        710    
+Products.NVATime                            .00000     .00000     .00000     .00000        710    
+Products.WaitTime                           .37324     .07533     .00000     2.5000        710    
+Products.TranTime                           .00000     .00000     .00000     .00000        710    
+Products.OtherTime                          .00000     .00000     .00000     .00000        710    
+Products.TotalTime                          .53850     .09712     .00000     3.8718        710    
+Products.VACost                             5.1896     .77122     .00000     32.743        710    
+Products.NVACost                            .00000     .00000     .00000     .00000        710    
+Products.WaitCost                           .74648     .15065     .00000     5.0000        710    
+Products.TranCost                           .00000     .00000     .00000     .00000        710    
+Products.OtherCost                          .00000     .00000     .00000     .00000        710    
+Products.TotalCost                          5.9361     .90028     .00000     37.743        710    
+demande.VATime                              .00000     (Insuf)    .00000     .00000         25    
+demande.NVATime                             .00000     (Insuf)    .00000     .00000         25    
+demande.WaitTime                            .00000     (Insuf)    .00000     .00000         25    
+demande.TranTime                            .00000     (Insuf)    .00000     .00000         25    
+demande.OtherTime                           .00000     (Insuf)    .00000     .00000         25    
+demande.TotalTime                           .00000     (Insuf)    .00000     .00000         25    
+demande.VACost                              .00000     (Insuf)    .00000     .00000         25    
+demande.NVACost                             .00000     (Insuf)    .00000     .00000         25    
+demande.WaitCost                            .00000     (Insuf)    .00000     .00000         25    
+demande.TranCost                            .00000     (Insuf)    .00000     .00000         25    
+demande.OtherCost                           .00000     (Insuf)    .00000     .00000         25    
+demande.TotalCost                           .00000     (Insuf)    .00000     .00000         25    
+Process.Queue.WaitingTime                   .00000     (Insuf)    .00000     .00000         25    
+Process.Queue.WaitingCost                   .00000     (Insuf)    .00000     .00000         25    
+Batch.Queue.WaitingTime                     .00000     (Insuf)    .00000     .00000        140    
+Batch.Queue.WaitingCost                     .00000     (Insuf)    .00000     .00000        140    
+Match.Queue1.WaitingTime                    2.3200     (Insuf)    .00000     2.5000         25    
+Match.Queue1.WaitingCost                    23.200     (Insuf)    .00000     25.000         25    
+Match.Queue2.WaitingTime                    .00000     (Insuf)    .00000     .00000         25    
+Match.Queue2.WaitingCost                    .00000     (Insuf)    .00000     .00000         25    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifiant                                  Moyenne   Médian  Minimum    Maximum  Valeur finale
+___________________________________________________________________________________________________
+
+Products.WIP                                21.116     (Insuf)    .00000     40.000     30.000    
+demande.WIP                                 .00000     (Insuf)    .00000     1.0000     .00000    
+prix.NumberBusy                             1.0194     (Insuf)    .00000     2.0000     2.0000    
+Process.Queue.NumberInQueue                 .00000     (Insuf)    .00000     .00000     .00000    
+Batch.Queue.NumberInQueue                   .00000     (Insuf)    .00000     5.0000     .00000    
+Match.Queue1.NumberInQueue                  2.5000     (Insuf)    .00000     3.0000     3.0000    
+Match.Queue2.NumberInQueue                  .00000     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Process Accum Wait Time                     .00000    
+Process Accum Wait Cost                     .00000    
+Process Total Accum Time                    23.467    
+Process Number Out                          23.000    
+Process Accum VA Time                       23.467    
+Process Total Accum Cost                    3684.6    
+Process Number In                           25.000    
+Process Accum VA Cost                       3684.6    
+Products.NumberIn                           763.00    
+Products.NumberOut                          733.00    
+demande.NumberIn                            25.000    
+demande.NumberOut                           25.000    
+prix.NumberSeized                           25.000    
+prix.BusyCost                               .00000    
+prix.UsageCost                              3750.0    
+All Entities.VACost                         3984.6    
+All Entities.NVACost                        .00000    
+All Entities.WaitCost                       580.00    
+All Entities.TranCost                       .00000    
+All Entities.OtherCost                      .00000    
+All Entities.TotalCost                      4564.6    
+All Resources.BusyCost                      .00000    
+All Resources.IdleCost                      .00000    
+All Resources.UsageCost                     3750.0    
+All Resources.TotalCost                     3750.0    
+System.TotalCost                            4564.6    
+System.NumberOut                            735.00    
+
+
+                                      ARENA Simulation Results
+                                    guilherme - License: STUDENT
+
+                                  Output Summary for 2 Replications
+
+Projet: Unnamed Project                                             Date d'éxécution du Run :10/16/2024
+Analyse: Rockwell Automation                                         Date de révision du moodèle:10/16/2024
+
+
+                                             OUTPUTS
+
+Identifier                                 Average    Half-width Minimum    Maximum # Replications
+___________________________________________________________________________________________________
+
+Process Accum Wait Time                     .00000     .00000     .00000     .00000     2
+Process Accum Wait Cost                     .00000     .00000     .00000     .00000     2
+Process Total Accum Time                    23.495     .35913     23.467     23.523     2
+Process Number Out                          23.000     .00000     23.000     23.000     2
+Process Accum VA Time                       23.495     .35913     23.467     23.523     2
+Process Total Accum Cost                    3684.9     3.5912     3684.6     3685.2     2
+Process Number In                           25.000     .00000     25.000     25.000     2
+Process Accum VA Cost                       3684.9     3.5912     3684.6     3685.2     2
+Products.NumberIn                           763.00     .00000     763.00     763.00     2
+Products.NumberOut                          733.00     .00000     733.00     733.00     2
+demande.NumberIn                            25.000     .00000     25.000     25.000     2
+demande.NumberOut                           25.000     .00000     25.000     25.000     2
+prix.NumberSeized                           25.000     .00000     25.000     25.000     2
+prix.BusyCost                               .00000     .00000     .00000     .00000     2
+prix.UsageCost                              3750.0     .00000     3750.0     3750.0     2
+All Entities.VACost                         3984.9     3.5912     3984.6     3985.2     2
+All Entities.NVACost                        .00000     .00000     .00000     .00000     2
+All Entities.WaitCost                       580.00     .00000     580.00     580.00     2
+All Entities.TranCost                       .00000     .00000     .00000     .00000     2
+All Entities.OtherCost                      .00000     .00000     .00000     .00000     2
+All Entities.TotalCost                      4564.9     3.5912     4564.6     4565.2     2
+All Resources.BusyCost                      .00000     .00000     .00000     .00000     2
+All Resources.IdleCost                      .00000     .00000     .00000     .00000     2
+All Resources.UsageCost                     3750.0     .00000     3750.0     3750.0     2
+All Resources.TotalCost                     3750.0     .00000     3750.0     3750.0     2
+System.TotalCost                            4564.9     3.5912     4564.6     4565.2     2
+System.NumberOut                            735.00     .00000     735.00     735.00     2
+
+Simulation run time: 0.05 minutes.
+Simulation run complete.

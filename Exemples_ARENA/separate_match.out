@@ -1,0 +1,54 @@
+
+                                      ARENA Simulation Results
+                                    guilherme - License: STUDENT
+
+                                  Résumé pour la réplication 1 sur 1
+
+Projet: Unnamed Project                                             Date d'éxécution du Run :10/16/2024
+Analyse: usrlocal                                                    Date de révision du moodèle:10/16/2024
+
+Fin de la réplication au temps      : 464.88415 Heures 
+Base Time Units (unité de base pour le temps): Heures
+
+                                           TALLY VARIABLES
+
+Identifiant                                  Moyenne   Médian  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+token.VATime                                .00000     (Insuf)    .00000     .00000        200    
+token.NVATime                               .00000     (Insuf)    .00000     .00000        200    
+token.WaitTime                              17.323     (Insuf)    .00000     42.638        200    
+token.TranTime                              .00000     (Insuf)    .00000     .00000        200    
+token.OtherTime                             11.057     (Insuf)    .00000     29.066        200    
+token.TotalTime                             28.380     (Insuf)    17.092     42.638        200    
+Seize.Queue.WaitingTime                     6.2663     (Insuf)    .00000     20.018        100    
+Match.Queue1.WaitingTime                    .00000     (Insuf)    .00000     .00000        100    
+Match.Queue2.WaitingTime                    28.380     (Insuf)    17.092     42.638        100    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifiant                                  Moyenne   Médian  Minimum    Maximum  Valeur finale
+___________________________________________________________________________________________________
+
+token.WIP                                   12.209     (Insuf)    .00000     20.000     .00000    
+Resource.NumberBusy                         4.7569     (Insuf)    .00000     5.0000     .00000    
+Resource.NumberScheduled                    5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Resource.Utilization                        .95138     (Insuf)    .00000     1.0000     .00000    
+Seize.Queue.NumberInQueue                   1.3479     (Insuf)    .00000     5.0000     .00000    
+Match.Queue1.NumberInQueue                  .00000     (Insuf)    .00000     1.0000     .00000    
+Match.Queue2.NumberInQueue                  6.1048     (Insuf)    .00000     10.000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+token.NumberIn                              200.00    
+token.NumberOut                             200.00    
+Resource.NumberSeized                       100.00    
+Resource.ScheduledUtilization               .95138    
+System.NumberOut                            200.00    
+
+
+Simulation run time: 0.07 minutes.
+Simulation run complete.

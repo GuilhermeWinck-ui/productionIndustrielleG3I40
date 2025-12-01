@@ -1,0 +1,12 @@
+[RESOURCES]
+Resource
+[VARIABLES]
+commande.NumberOut
+Delayed.NumberOut
+Dispose.NumberOut
+MaxDelay
+Separate.NumberOut Orig
+Separate.NumberOut Dup
+OnTime.NumberOut
+Decide.NumberOut False
+Decide.NumberOut True
